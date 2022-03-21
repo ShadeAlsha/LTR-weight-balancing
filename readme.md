@@ -33,3 +33,12 @@ We installed python and most packages through Anaconda. Some others might not be
  - PyTorch verion: 1.7.1
 
 We suggest assigning 300MB space to run all the demos, because they will save models paramters.
+
+If you find our model/method/dataset useful, please cite our work:
+
+    @inproceedings{LTRweightbalancing,
+      title={Long-Tailed Recognition via Weight Balancing},
+      author={Alshammari, Shaden and Wang, Yuxiong and Ramanan, Deva and Kong, Shu},
+      booktitle={CVPR},
+      year={2022}
+    }
