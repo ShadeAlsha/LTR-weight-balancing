@@ -1,9 +1,4 @@
 # Long-Tailed Recognition via Weight Balancing
-
-Paper ID 0020 submitted to CVPR 2022. 
-Do not distribute.
-
-
 ![alt text](./assets/per_class_acc.png "splashing figure")
 
 
@@ -38,8 +33,3 @@ We installed python and most packages through Anaconda. Some others might not be
  - PyTorch verion: 1.7.1
 
 We suggest assigning 300MB space to run all the demos, because they will save models paramters.
- 
- 
- 
-## Future Plan
-We will release our open-source code under the MIT License to foster future research in this field.
