@@ -1,7 +1,5 @@
 # Long-Tailed Recognition via Weight Balancing
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-tailed-recognition-via-weight-balancing/long-tail-learning-on-cifar-100-lt-r-100)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-100?p=long-tailed-recognition-via-weight-balancing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-tailed-recognition-via-weight-balancing/long-tail-learning-on-cifar-100-lt-r-50)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-50?p=long-tailed-recognition-via-weight-balancing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-tailed-recognition-via-weight-balancing/long-tail-learning-on-cifar-100-lt-r-10)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-10?p=long-tailed-recognition-via-weight-balancing)
 
 ![alt text](./assets/per_class_acc.png "splashing figure")
 
