@@ -1,8 +1,12 @@
 # Long-Tailed Recognition via Weight Balancing
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-tailed-recognition-via-weight-balancing/long-tail-learning-on-cifar-100-lt-r-100)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-100?p=long-tailed-recognition-via-weight-balancing)
 
+ <a href="https://arxiv.org/abs/2203.14197" target="_blank">\[paper\]</a>
+ <a href="https://drive.google.com/file/d/15Fx3bonRQQNCT3mpwm25vfEqvURKpfaM/view?usp=sharing" target="_blank">\[slides\]</a>
+ <a href="https://drive.google.com/file/d/1XwN3peQGoJBtKUOBvIIg1fL8_O3Trpff/view?usp=sharing" target="_blank">\[poster\]</a>
+
 ![alt text](./assets/per_class_acc.png "splashing figure")
-\[paper\] \[slides\] \[poster\]
+
 In the real open world, data tends to follow long-tailed class distributions, motivating the well-studied long-tailed recognition (LTR) problem. Naive training produces models that are biased toward common classes in terms of higher accuracy. The key to addressing LTR is to balance various aspects including data distribution, training losses, and gradients in learning. We explore an orthogonal direction, {\bf weight balancing}, motivated by the empirical observation that the naively trained classifier has "artificially" larger weights in norm for common classes (because there exists abundant data to train them, unlike the rare classes). We investigate three techniques to balance weights, L2-normalization, weight decay, and MaxNorm. We first point out that L2-normalization "perfectly" balances per-class weights to be unit norm, but such a hard constraint might prevent classes from learning better classifiers. In contrast, weight decay penalizes larger weights more heavily and so learns small balanced weights; the MaxNorm constraint encourages growing small weights within a norm ball but caps all the weights by the radius. Our extensive study shows that both help learn balanced weights and greatly improve the LTR accuracy. Surprisingly, weight decay, although underexplored in LTR, significantly improves over prior work. Therefore, we adopt a two-stage training paradigm and propose a simple approach to LTR: (1) learning features using the cross-entropy loss by tuning weight decay, and (2) learning classifiers using class-balanced loss by tuning weight decay and MaxNorm. Our approach achieves the state-of-the-art accuracy on five standard benchmarks, serving as a future baseline for long-tailed recognition.
 
 
