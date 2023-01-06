@@ -2,8 +2,9 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/long-tailed-recognition-via-weight-balancing/long-tail-learning-on-cifar-100-lt-r-100)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-100-lt-r-100?p=long-tailed-recognition-via-weight-balancing)
 
  <a href="https://arxiv.org/abs/2203.14197" target="_blank">\[CVPR2022 paper\]</a>
- <a href="https://drive.google.com/file/d/15Fx3bonRQQNCT3mpwm25vfEqvURKpfaM/view?usp=sharing" target="_blank">\[slides\]</a>
  <a href="https://drive.google.com/file/d/1XwN3peQGoJBtKUOBvIIg1fL8_O3Trpff/view?usp=sharing" target="_blank">\[poster\]</a>
+ <a href="https://drive.google.com/file/d/15Fx3bonRQQNCT3mpwm25vfEqvURKpfaM/view?usp=sharing" target="_blank">\[slides\]</a>
+ <a href="https://youtu.be/81F-vEcDLaM" target="_blank">\[video\]</a>
 
 ![alt text](./assets/per_class_acc.png "splashing figure")
 
